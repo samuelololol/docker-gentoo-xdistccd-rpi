@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/samuelololol/docker-gentoo-xdistccd-rpi.svg?branch=master)](https://travis-ci.org/samuelololol/docker-gentoo-xdistccd-rpi)
 # docker-gentoo-xdistccd-rpi
 gentoo docker image, cross compiler for rpi
 
