@@ -1,8 +1,10 @@
+language: generic
 services:
     - docker
 
 install:
-    - travis_wait 120 docker build -t docker-gentoo-xdistccd-rpi . > /dev/null
+    - travis_wait 120 sleep infinity &
+    - docker build -t docker-gentoo-xdistccd-rpi . > /dev/null
 
 script:
     - echo $(docker images) | grep "docker-gentoo-xdistccd-rpi"
