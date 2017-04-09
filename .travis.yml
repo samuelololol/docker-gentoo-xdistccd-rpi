@@ -1,0 +1,8 @@
+services:
+    - docker
+
+install:
+    - docker build -t docker-gentoo-xdistccd-rpi .
+
+script:
+    - echo $(docker images) | grep "docker-gentoo-xdistccd-rpi"
