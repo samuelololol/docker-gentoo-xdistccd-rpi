@@ -1,5 +1,5 @@
 #FROM samuelololol/docker-gentoo-crossdev-distccd
-FROM samuelololol/docker-gentoo-crossdev-distccd-s3
+FROM samuelololol/docker-gentoo-xdistccd-s3
 MAINTAINER samuelololol <samuelololol@gmail.com>
 # remove to prevent crossdev build linux-headers fail
 RUN rm -rf /sbin/unix_chkpwd

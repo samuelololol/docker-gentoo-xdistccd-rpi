@@ -4,6 +4,7 @@ gentoo docker image, cross compiler for rpi
 
 # base image stack
 
+*    [samuelololol/docker-gentoo-xdistccd-3](https://hub.docker.com/r/samuelololol/docker-gentoo-xdistccd-s3/)
 *    [samuelololol/docker-gentoo-crossdev-distccd](https://hub.docker.com/r/samuelololol/docker-gentoo-crossdev-distccd/)
 *    [samuelololol/docker-gentoo-websync](https://hub.docker.com/r/samuelololol/docker-gentoo-websync/)
 *    [gentoo/stage3-amd64](https://hub.docker.com/r/gentoo/stage3-amd64/)
